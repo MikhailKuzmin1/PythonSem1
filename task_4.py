@@ -2,7 +2,7 @@ length = int(input('Введите колличество долек в длин
 width = int(input('Введите колличество долек в ширину: '))
 chocolate = int(input('Введите колличество долек, которое хотите отломить: '))
 S = length*width
-if chocolate < S  and (chocolate%width == 0 or chocolate%length == 0):
+if chocolate <= S  and (chocolate%width == 0 or chocolate%length == 0):
     print('Можно')
 else:
     print('Нельзя')  
