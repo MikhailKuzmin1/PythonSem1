@@ -1,5 +1,5 @@
 all = input('Введите общее количсетво журавликов: ')
-Porovnu = int(all)/3
+Porovnu = int(all)//3
 katya = Porovnu * 2
 boys = Porovnu/2
 print(f'Журавликов сделала Катя: {int(katya)}')
